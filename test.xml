@@ -1,0 +1,31 @@
+TranslationUnitDecl 0x212e2e2df68 <<invalid sloc>> <invalid sloc>
+|-CXXRecordDecl 0x212e2e2e848 <<invalid sloc>> <invalid sloc> implicit struct _GUID
+| `-TypeVisibilityAttr 0x212e2e2e900 <<invalid sloc>> Implicit Default
+|-TypedefDecl 0x212e2e2e978 <<invalid sloc>> <invalid sloc> implicit __int128_t '__int128'
+| `-BuiltinType 0x212e2e2e500 '__int128'
+|-TypedefDecl 0x212e2e2e9e8 <<invalid sloc>> <invalid sloc> implicit __uint128_t 'unsigned __int128'
+| `-BuiltinType 0x212e2e2e520 'unsigned __int128'
+|-TypedefDecl 0x212e2e2ed88 <<invalid sloc>> <invalid sloc> implicit __NSConstantString '__NSConstantString_tag'
+| `-RecordType 0x212e2e2ead0 '__NSConstantString_tag'
+|   `-CXXRecord 0x212e2e2ea40 '__NSConstantString_tag'
+|-CXXRecordDecl 0x212e2e2ede0 <<invalid sloc>> <invalid sloc> implicit class type_info
+| `-TypeVisibilityAttr 0x212e2e2ee90 <<invalid sloc>> Implicit Default
+|-TypedefDecl 0x212e2e2ef08 <<invalid sloc>> <invalid sloc> implicit size_t 'unsigned long long'
+| `-BuiltinType 0x212e2e2e140 'unsigned long long'
+|-TypedefDecl 0x212e4827b50 <<invalid sloc>> <invalid sloc> implicit __builtin_ms_va_list 'char *'
+| `-PointerType 0x212e4827b10 'char *'
+|   `-BuiltinType 0x212e2e2e000 'char'
+|-TypedefDecl 0x212e4827bc0 <<invalid sloc>> <invalid sloc> implicit __builtin_va_list 'char *'
+| `-PointerType 0x212e4827b10 'char *'
+|   `-BuiltinType 0x212e2e2e000 'char'
+|-UsingDirectiveDecl 0x212e4827c88 <D:\test\test.cpp:2:1, col:17> col:17 Namespace 0x212e4827c18 'std'
+`-FunctionDecl 0x212e4827d30 <line:3:1, line:8:1> line:3:5 main 'int ()'
+  `-CompoundStmt 0x212e4828088 <col:11, line:8:1>
+    |-DeclStmt 0x212e4827ee8 <line:4:2, col:11>
+    | `-VarDecl 0x212e4827e58 <col:2, col:10> col:6 used a 'int' cinit
+    |   `-IntegerLiteral 0x212e4827ec0 <col:10> 'int' 1
+    |-DeclStmt 0x212e4827fa8 <line:5:2, col:11>
+    | `-VarDecl 0x212e4827f18 <col:2, col:10> col:6 used b 'int' cinit
+    |   `-IntegerLiteral 0x212e4827f80 <col:10> 'int' 2
+    `-ReturnStmt 0x212e4828078 <line:7:2, col:9>
+      `-IntegerLiteral 0x212e4828050 <col:9> 'int' 0
